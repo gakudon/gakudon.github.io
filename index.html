@@ -1,7 +1,78 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Gakudon Order Form</h1>
-<p>I will soon be an order form.</p>
+
+<body style="background-color:#ecedf3;">
+    <img src="img/white banner.png" width="600">
+    <h2>Beef Bulgogi</h2>
+    <img src="img/bbkfr.png" width="500">
+    <p>Beef Belly Bulgogi served with our best-tasting Kimchi Fried Rice and our homemade Kimchi!</p>
+    <strong>P199</strong>
+    <br>
+    <br>
+    <form action="https://formspree.io/f/xleadaqz" method="POST">
+        <label for="cars">Quantity</label>
+
+        <select name="_quantity" id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <br><br>
+        <label>
+            Contact Name:
+            <input type="text" name="_firstname">
+            <input type="text" name="_lastname">
+        </label>
+        <br>
+        <br>
+        <label>
+            Contact Number:
+            <input type="text" name="_number">
+        </label>
+        <br>
+        <br>
+        <label>
+            Instagram Handle:
+            <input type="text" name="_handle">
+        </label>
+        <br>
+        <br>
+        <label>
+            Delivery Address:
+            <input type="text" name="_address">
+        </label>
+        <br>
+        <br>
+        <label>
+            Delivery Date:
+            <input type="date" name="_date">
+        </label>
+        <br>
+        <br>
+        <label>
+            Delivery Time:
+        </label>
+        <br>
+        <input type="radio" id="5to6" name="_time" value="5to6">
+        <label for="male">5:00PM-6:00PM</label><br>
+        <input type="radio" id="6to7" name="_time" value="6to7">
+        <label for="male">6:00PM-7:00PM</label><br>
+        <input type="radio" id="7to8" name="_time" value="7to8">
+        <label for="male">7:00PM-8:00PM</label><br>
+        <input type="radio" id="8to9" name="_time" value="8to9">
+        <label for="male">8:00PM-9:00PM</label><br>
+        <input type="radio" id="9to10" name="_time" value="9to10">
+        <label for="male">9:00PM-10:00PM</label><br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
 </body>
+
 </html>
